@@ -8,6 +8,7 @@ Exchange (BSE) Using Nodejs.
 
 - Node.js
 - MongoDB
+- Redis
 - Python (for running the script and download data)
 
 ## Getting Started
@@ -41,6 +42,15 @@ The Python script automatically runs whenever index.js starts.
 To further add refresh functionality to update data from equity bhav copy zip an endpoint is futher created to refresh and download the data again.
 
 - Endpoint:`/refresh`
+
+6. DockerFile
+To run the file via docker Edit the docker-compose.yml file and enter your MongoDB Root username and password.
+Build and run the Docker container:
+```
+docker compose build
+
+docker-compose up
+```
 
 ## API ENDPOINTS
 
