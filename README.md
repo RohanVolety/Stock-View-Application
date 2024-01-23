@@ -16,8 +16,7 @@ Exchange (BSE) Using Nodejs.
 1. Clone the Repository
 
 ```
-git clone <repository-url>
-cd <repository-folder>
+git clone https://github.com/RohanVolety/Stock-View-Application.git
 ```
 2. Install Dependencies
 
@@ -42,15 +41,6 @@ The Python script automatically runs whenever index.js starts.
 To further add refresh functionality to update data from equity bhav copy zip an endpoint is futher created to refresh and download the data again.
 
 - Endpoint:`/refresh`
-
-6. DockerFile
-To run the file via docker Edit the docker-compose.yml file and enter your MongoDB Root username and password.
-Build and run the Docker container:
-```
-docker compose build
-
-docker-compose up
-```
 
 ## API ENDPOINTS
 
